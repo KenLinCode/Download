@@ -12,7 +12,7 @@
         function countTime(){  
             var now = new Date();
             var now = now.getTime();
-            var end = new Date("2021/6/18 09:30:00");
+            var end = new Date("2021/6/19 09:30:00");
             var end = end.getTime();
             var time = end-now;
             
@@ -34,7 +34,7 @@
                 return i;
             }
             
-            document.getElementById("lefttime").innerHTML = "距离数学考试还剩"+d+"天"+h+"时"+m+"分"+s+"秒";  
+            document.getElementById("lefttime").innerHTML = "距离物理考试还剩"+d+"天"+h+"时"+m+"分"+s+"秒！！！";  
             
             setTimeout(countTime,1000);  
         }  
